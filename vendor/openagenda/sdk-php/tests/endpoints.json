@@ -1,0 +1,26 @@
+{
+  "invalid-key": {
+    "GET": {
+      "body": "mocks/invalid/key.json",
+      "path": "/agendas?key=mypublickey"
+    }
+  },
+  "agenda": {
+    "GET": {
+      "body": "mocks/agenda/agenda.json",
+      "path": "/agendas/123456?key=mypublickey"
+    }
+  },
+  "events": {
+    "GET": {
+      "body": "mocks/event/events.json",
+      "path": "/agendas/123456/events?key=mypublickey"
+    }
+  },
+  "event": {
+    "GET": {
+      "body": "mocks/event/event.json",
+      "path": "/agendas/123456/events/654321?key=mypublickey"
+    }
+  }
+}
